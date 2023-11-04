@@ -35,70 +35,54 @@ const defaultTasks: Task[] = [
   {
     id: "1",
     columnId: "todo",
-    content: "List admin APIs for dashboard",
+    content: "The Code Dealer. Build a Fullstack Task Manager Application Next.js, React, Prisma, MongoDB",
   },
   {
     id: "2",
     columnId: "todo",
-    content:
-      "Develop user registration functionality with OTP delivered on SMS after email confirmation and phone number confirmation",
+    content: "Chaoo Charles. Build and Deploy a Full-Stack E-Commerce Next.js 13, React.js, Typescript, Tailwind, Prisma, Stripe"
   },
   {
     id: "3",
-    columnId: "doing",
-    content: "Conduct security testing",
+    columnId: "todo",
+    content: "Sahad. Build a Modern Real Estate Marketplace with react MERN (jwt, redux toolkit)",
   },
   {
     id: "4",
     columnId: "doing",
-    content: "Analyze competitors",
+    content: "Find an replacement \"Daily Quick Fix\" ",
   },
   {
     id: "5",
-    columnId: "done",
-    content: "Create UI kit documentation",
+    columnId: "doing",
+    content: "Code with Kliton. NextJs course Full stack Form builder, React, Typescript , Dnd-Kit, PostgreSQL, Prisma, Tailwind",
   },
   {
     id: "6",
-    columnId: "done",
-    content: "Dev meeting",
+    columnId: "doing",
+    content: "Code with Antonio. Fullstack Notion Clone Next.js 13, React, Convex, Tailwind   Full Course 2023",
   },
   {
     id: "7",
-    columnId: "done",
-    content: "Deliver dashboard prototype",
+    columnId: "doing",
+    content: "Master GitHubCopilot",
   },
   {
     id: "8",
-    columnId: "todo",
-    content: "Optimize application performance",
+    columnId: "done",
+    content: "Steve Kaufmann - I will teach you how to learn a new language",
   },
   {
     id: "9",
-    columnId: "todo",
-    content: "Implement data validation",
+    columnId: "done",
+    content: "Advanced Grammar in Use with Answers. A Self-Study Reference and Practice Book for Advanced Learners of English by Martin Hewings",
   },
   {
     id: "10",
-    columnId: "todo",
-    content: "Design database schema",
+    columnId: "done",
+    content: "Bard - the best AI",
   },
-  {
-    id: "11",
-    columnId: "todo",
-    content: "Integrate SSL web certificates into workflow",
-  },
-  {
-    id: "12",
-    columnId: "doing",
-    content: "Implement error logging and monitoring",
-  },
-  {
-    id: "13",
-    columnId: "doing",
-    content: "Design and implement responsive UI",
-  },
-];
+ ];
 
 function KanbanBoard() {
   const [columns, setColumns] = useState<Column[]>(defaultCols);

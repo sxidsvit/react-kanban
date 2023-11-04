@@ -6,7 +6,7 @@
 - Editing the content and title of tasks and columns with inline editing
 - Styling the UI with TailwindCSS utility classes
 
-[Visit site](https://react-kanban.vercel.app)
+[Visit site](https://react-kanban-sxidsvit.vercel.app/)
 
 ### How does this work
 
